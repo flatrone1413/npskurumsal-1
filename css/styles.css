@@ -627,6 +627,9 @@ input[type='checkbox'] {
 	padding-top: 6.5rem;
 	padding-bottom: 4.5rem;
 }
+.basic-2 p{
+	color: #1E1E1E;
+}
 .basic-2 .image-container {
 	margin-bottom: 3.75rem;
 }
@@ -774,6 +777,9 @@ input[type='checkbox'] {
 .basic-3 h2 {
 	margin-bottom: 1.25rem;
 }
+.basic-3 p{
+	color: #1E1E1E;
+}
 
 .basic-3 .text-container {
 	margin-bottom: 4rem;
@@ -831,28 +837,6 @@ input[type='checkbox'] {
 	padding: 2.5rem 1rem 1.125rem 1rem;
 	border-radius: 10px;
 }
-
-
-/*****************/
-/*     About     */
-/*****************/
-.basic-5 {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-}
-
-.basic-5 .text-container {
-	margin-bottom: 3rem;
-}
-
-.basic-5 h2 {
-	margin-bottom: 1.25rem;
-}
-
-.basic-5 .image-container {
-	margin-bottom: 3rem;
-}
-
 
 /**********************/
 /*     Statistics     */
@@ -940,7 +924,18 @@ input[type='checkbox'] {
 	bottom: -60px;
 	right: -200px;
 }
-
+.form-1 .iletisim{
+	text-align: center;
+}
+.form-1 .icon{
+	width: 2rem;
+	height: 2rem;
+}
+address .info{
+	color: #026cfe;
+	text-decoration: none;
+	font-size: 25px;
+}
 
 /******************/
 /*     Footer     */
@@ -1338,22 +1333,10 @@ a:hover.back-to-top {
 		bottom: -80px;
 		right: -200px;
 	}
-	/* end of contact */
 	.form-1 .icon{
 		width: 3rem;
 		height: 4rem;
-		color: #1E1E1E;
 	}
-	address .info{
-		color: #026cfe;
-		text-decoration: none;
-	}
-	address ul{
-		list-style-type: none;
-	}
-	
-	address li{
-		text-align: center;
-	}
+	/* end of contact */
 }
 /* end of min-width 1200px */

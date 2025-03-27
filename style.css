@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.orta{
+    text-align: center;
+    margin: 0 auto;
+}
